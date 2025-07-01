@@ -99,12 +99,10 @@ wall_robot_system/
 
 ## 🖼️ Screenshots
 
+Here’s a demo of the Wall Robot Control System in action:
 
-```
 ![Trajectory UI](screenshots/trajectory_preview.png)
-```
 
----
 
 ## 🚧 Future Improvements
 
