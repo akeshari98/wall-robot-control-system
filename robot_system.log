@@ -67,3 +67,112 @@
 2025-07-01 07:38:02,910 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
 2025-07-01 07:39:45,740 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
 2025-07-01 09:41:37,218 - ERROR - WebSocket error: no close frame received or sent
+2025-07-01 20:09:40,785 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (199 points)
+2025-07-01 20:16:40,158 - INFO - Database initialized
+2025-07-01 20:16:43,347 - INFO - Creating trajectory: Smart_Trajectory_1
+2025-07-01 20:17:31,064 - INFO - Creating trajectory: Smart_Trajectory_1
+2025-07-01 20:22:13,761 - INFO - Database initialized
+2025-07-01 20:22:24,597 - INFO - Creating trajectory: Smart_Trajectory_1
+2025-07-01 20:22:29,533 - INFO - Creating trajectory: Smart_Trajectory_1
+2025-07-01 20:24:27,124 - INFO - Database initialized
+2025-07-01 20:24:38,112 - INFO - Creating trajectory: Smart_Trajectory_1
+2025-07-01 20:24:39,336 - INFO - Creating trajectory: Smart_Trajectory_1
+2025-07-01 20:24:45,072 - INFO - Creating trajectory: Smart_Trajectory_1
+2025-07-01 20:29:30,752 - INFO - Published event: Trajectory created: Smart_Trajectory_1 (9879 points)
+2025-07-01 20:29:46,054 - INFO - Published event: Trajectory created: Smart_Trajectory_1 (9758 points)
+2025-07-01 20:34:32,038 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (1939 points)
+2025-07-01 20:39:01,706 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (9879 points)
+2025-07-01 20:39:27,746 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (9758 points)
+2025-07-01 20:43:35,078 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (9879 points)
+2025-07-01 20:44:51,057 - ERROR - Error fetching trajectories: no such column: coverage_percentage
+2025-07-01 20:44:55,544 - INFO - Found 1 connected components
+2025-07-01 20:44:55,569 - INFO - Path generation completed in 0.210s
+2025-07-01 20:44:55,572 - INFO - Coverage: 100.0% (9856 points)
+2025-07-01 20:44:55,700 - ERROR - Error creating trajectory: table trajectories has no column named coverage_percentage
+2025-07-01 20:44:59,312 - INFO - Found 1 connected components
+2025-07-01 20:44:59,339 - INFO - Path generation completed in 0.069s
+2025-07-01 20:44:59,340 - INFO - Coverage: 100.0% (9856 points)
+2025-07-01 20:44:59,354 - ERROR - Error creating trajectory: table trajectories has no column named coverage_percentage
+2025-07-01 20:55:23,275 - ERROR - Error fetching trajectories: no such column: coverage_percentage
+2025-07-01 20:55:26,597 - INFO - Creating trajectory for wall 5.0x5.0m with 1 obstacles
+2025-07-01 20:55:26,616 - INFO - Grid size: 100x100 (resolution: 0.05m)
+2025-07-01 20:55:26,955 - INFO - Component analysis complete: 2 components found
+2025-07-01 20:55:26,956 - INFO - Found 2 connected components
+2025-07-01 20:55:26,958 - INFO - Component sizes: [9388, 468]
+2025-07-01 20:55:27,019 - INFO - Component 1: 9388 points
+2025-07-01 20:55:27,027 - INFO - Component 2: 468 points
+2025-07-01 20:55:27,031 - INFO - Starting with component 1: 9388 points
+2025-07-01 20:55:27,036 - INFO - Connecting component 2: from (99, 0) to (39, 0)
+2025-07-01 20:55:27,043 - INFO - Connection path: 61 points
+2025-07-01 20:55:27,048 - INFO - Total path length: 9916 points
+2025-07-01 20:55:27,051 - INFO - Generated grid path with 9916 points
+2025-07-01 20:55:27,119 - INFO - Path generation completed in 0.503s
+2025-07-01 20:55:27,122 - INFO - Coverage: 100.6% (9916 points)
+2025-07-01 20:55:27,127 - INFO - Generated path with 9916 points
+2025-07-01 20:55:27,304 - ERROR - Database operation failed: table trajectories has no column named coverage_percentage
+2025-07-01 20:55:31,053 - ERROR - Error fetching trajectories: no such column: coverage_percentage
+2025-07-01 22:06:33,217 - ERROR - Error fetching trajectories: no such column: coverage_percentage
+2025-07-01 22:06:41,367 - ERROR - Error fetching trajectories: no such column: coverage_percentage
+2025-07-01 22:06:44,492 - INFO - Creating trajectory for wall 5.0x5.0m with 1 obstacles
+2025-07-01 22:06:44,493 - INFO - Grid size: 100x100 (resolution: 0.05m)
+2025-07-01 22:06:44,512 - INFO - Component analysis complete: 2 components found
+2025-07-01 22:06:44,512 - INFO - Found 2 connected components
+2025-07-01 22:06:44,512 - INFO - Component sizes: [9388, 468]
+2025-07-01 22:06:44,516 - INFO - Component 1: 9388 points
+2025-07-01 22:06:44,517 - INFO - Component 2: 468 points
+2025-07-01 22:06:44,517 - INFO - Starting with component 1: 9388 points
+2025-07-01 22:06:44,518 - INFO - Connecting component 2: from (99, 0) to (39, 0)
+2025-07-01 22:06:44,518 - INFO - Connection path: 61 points
+2025-07-01 22:06:44,518 - INFO - Total path length: 9916 points
+2025-07-01 22:06:44,519 - INFO - Generated grid path with 9916 points
+2025-07-01 22:06:44,522 - INFO - Path generation completed in 0.029s
+2025-07-01 22:06:44,523 - INFO - Coverage: 100.6% (9916 points)
+2025-07-01 22:06:44,523 - INFO - Generated path with 9916 points
+2025-07-01 22:06:44,537 - ERROR - Database operation failed: table trajectories has no column named coverage_percentage
+2025-07-01 22:21:09,947 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (9879 points)
+2025-07-01 22:24:05,268 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-01 22:24:21,290 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10291 points)
+2025-07-01 23:11:02,011 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-01 23:22:01,341 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-01 23:31:36,213 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-01 23:32:06,658 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-01 23:32:06,716 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
+2025-07-01 23:36:02,717 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-01 23:36:02,831 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
+2025-07-01 23:39:41,413 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-01 23:39:53,983 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-02 00:03:55,158 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-02 00:05:05,541 - INFO - Published event:  Trajectory created: robot1 (10159 points)
+2025-07-02 00:16:55,640 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-02 00:17:08,264 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-02 00:17:42,335 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10219 points)
+2025-07-02 00:20:16,222 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-02 00:20:16,239 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
+2025-07-02 00:20:37,261 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10219 points)
+2025-07-02 00:20:58,145 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10281 points)
+2025-07-02 00:21:30,205 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10501 points)
+2025-07-02 00:22:11,896 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10501 points)
+2025-07-02 00:22:53,015 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10231 points)
+2025-07-02 00:22:53,030 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
+2025-07-02 00:22:53,039 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
+2025-07-02 00:23:06,469 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10291 points)
+2025-07-02 00:23:27,292 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10351 points)
+2025-07-02 00:23:43,867 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (8838 points)
+2025-07-02 00:23:52,409 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (8838 points)
+2025-07-02 00:24:07,360 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (8989 points)
+2025-07-02 00:24:07,363 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
+2025-07-02 00:24:28,151 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10231 points)
+2025-07-02 00:24:28,233 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
+2025-07-02 00:24:45,628 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10291 points)
+2025-07-02 00:25:08,322 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10603 points)
+2025-07-02 00:25:25,041 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10635 points)
+2025-07-02 00:28:00,550 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-02 00:28:19,086 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10465 points)
+2025-07-02 00:28:45,365 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10489 points)
+2025-07-02 00:29:05,944 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10709 points)
+2025-07-02 00:29:35,630 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10099 points)
+2025-07-02 00:29:44,425 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10159 points)
+2025-07-02 00:30:07,249 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10291 points)
+2025-07-02 00:30:24,599 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10511 points)
+2025-07-02 00:30:38,840 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10639 points)
+2025-07-02 00:31:00,418 - INFO - Published event:  Trajectory created: Smart_Trajectory_1 (10679 points)

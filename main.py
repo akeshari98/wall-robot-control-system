@@ -1,6 +1,4 @@
-# main.py
-
-from fastapi import FastAPI, HTTPException, Depends, WebSocket
+from fastapi import FastAPI, HTTPException, WebSocket
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
@@ -9,7 +7,6 @@ import sqlite3
 import json
 import time
 import logging
-from datetime import datetime
 import threading
 import heapq
 import redis
@@ -39,7 +36,7 @@ redis_client = redis.Redis(host="localhost", port=6379, decode_responses=True)
 def publish_event(message: str):
     try:
         redis_client.publish(REDIS_CHANNEL, message)
-        logger.info(f"Published event: {message}")
+        logger.info(f"Published event: {message.encode('ascii', 'ignore').decode()}")
     except Exception as e:
         logger.error(f"Redis publish failed: {str(e)}")
 
@@ -97,7 +94,7 @@ class TrajectoryResponse(BaseModel):
     created_at: str
     execution_time: float
 
-# A* Planner
+# Enhanced Coverage Planner with A* Detour
 class CoveragePlannerSmart:
     def __init__(self, wall_width, wall_height, obstacles):
         self.wall_width = wall_width
@@ -158,12 +155,17 @@ class CoveragePlannerSmart:
         return []
 
     def generate_path(self):
-        start = (0, 0)
-        goal = (self.rows - 1, self.cols - 1)
-        if self.grid[start[0]][start[1]] == 1 or self.grid[goal[0]][goal[1]] == 1:
-            return []
-        path = self.a_star(start, goal)
-        return [[x[1] * self.grid_resolution, x[0] * self.grid_resolution] for x in path]
+        path = []
+        direction = 1
+        current = (0, 0)
+        for y in range(self.rows):
+            target = (y, self.cols - 1) if direction == 1 else (y, 0)
+            sub_path = self.a_star(current, target)
+            for cell in sub_path:
+                path.append([cell[1] * self.grid_resolution, cell[0] * self.grid_resolution])
+            current = target
+            direction *= -1
+        return path
 
 @app.get("/", response_class=HTMLResponse)
 async def root():
@@ -288,3 +290,7 @@ async def websocket_endpoint(websocket: WebSocket):
         logger.error(f"WebSocket error: {str(e)}")
     finally:
         await websocket.close()
+
+
+
+

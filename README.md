@@ -101,7 +101,7 @@ wall_robot_system/
 
 Here’s a demo of the Wall Robot Control System in action:
 
-![Trajectory UI](screenshots/trajectory_preview.png)
+![Trajectory UI](screenshots/trajectory_preview1.png)
 
 
 ## 🚧 Future Improvements
