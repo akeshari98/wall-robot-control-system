@@ -1,0 +1,69 @@
+2025-07-01 06:25:20,162 - INFO - Database initialized successfully
+2025-07-01 06:30:45,951 - INFO - Database initialized successfully
+2025-07-01 06:32:42,879 - INFO - Database initialized successfully
+2025-07-01 06:35:54,812 - INFO - Database initialized successfully
+2025-07-01 06:36:00,244 - ERROR - Error retrieving trajectories: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 20700 and this is thread id 22764.
+2025-07-01 06:36:07,727 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:36:07,755 - ERROR - Error creating trajectory: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 20700 and this is thread id 22764.
+2025-07-01 06:36:23,502 - ERROR - Error retrieving trajectories: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 20700 and this is thread id 22764.
+2025-07-01 06:36:31,810 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:36:31,875 - ERROR - Error creating trajectory: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 20700 and this is thread id 22764.
+2025-07-01 06:36:37,207 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:36:37,211 - ERROR - Error creating trajectory: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 20700 and this is thread id 22764.
+2025-07-01 06:39:24,945 - ERROR - Error retrieving trajectories: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 20700 and this is thread id 22764.
+2025-07-01 06:40:14,864 - INFO - Database initialized successfully
+2025-07-01 06:40:21,804 - INFO - Retrieved 0 trajectories in 0.003s
+2025-07-01 06:40:42,462 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:40:42,483 - INFO - Trajectory created successfully with ID: 1
+2025-07-01 06:40:42,500 - INFO - Retrieved trajectory 1 in 0.006s
+2025-07-01 06:40:42,540 - INFO - Retrieved 1 trajectories in 0.001s
+2025-07-01 06:47:36,868 - INFO - Retrieved 1 trajectories in 0.001s
+2025-07-01 06:47:53,043 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:47:53,057 - INFO - Trajectory created successfully with ID: 2
+2025-07-01 06:47:53,072 - INFO - Retrieved trajectory 2 in 0.007s
+2025-07-01 06:47:53,092 - INFO - Retrieved 2 trajectories in 0.001s
+2025-07-01 06:51:20,546 - INFO - Retrieved 2 trajectories in 0.008s
+2025-07-01 06:51:26,218 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:51:26,233 - INFO - Trajectory created successfully with ID: 3
+2025-07-01 06:51:26,250 - INFO - Retrieved trajectory 3 in 0.007s
+2025-07-01 06:51:26,283 - INFO - Retrieved 3 trajectories in 0.001s
+2025-07-01 06:52:02,609 - INFO - Retrieved 3 trajectories in 0.002s
+2025-07-01 06:52:10,169 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:52:10,291 - INFO - Trajectory created successfully with ID: 4
+2025-07-01 06:52:10,536 - INFO - Retrieved trajectory 4 in 0.195s
+2025-07-01 06:52:10,807 - INFO - Retrieved 4 trajectories in 0.011s
+2025-07-01 06:52:22,261 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:52:22,274 - INFO - Trajectory created successfully with ID: 5
+2025-07-01 06:52:22,287 - INFO - Retrieved trajectory 5 in 0.006s
+2025-07-01 06:52:22,305 - INFO - Retrieved 5 trajectories in 0.002s
+2025-07-01 06:55:20,965 - INFO - Retrieved 5 trajectories in 0.022s
+2025-07-01 06:55:26,747 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:55:26,771 - INFO - Trajectory created successfully with ID: 6
+2025-07-01 06:55:26,787 - INFO - Retrieved trajectory 6 in 0.007s
+2025-07-01 06:55:26,807 - INFO - Retrieved 6 trajectories in 0.002s
+2025-07-01 06:56:20,237 - INFO - Retrieved 6 trajectories in 0.002s
+2025-07-01 06:56:28,403 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:56:28,431 - INFO - Trajectory created successfully with ID: 7
+2025-07-01 06:56:28,442 - INFO - Retrieved trajectory 7 in 0.005s
+2025-07-01 06:56:28,460 - INFO - Retrieved 7 trajectories in 0.003s
+2025-07-01 06:58:28,976 - INFO - Retrieved 7 trajectories in 0.022s
+2025-07-01 06:58:36,157 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:58:36,275 - INFO - Trajectory created successfully with ID: 8
+2025-07-01 06:58:36,448 - INFO - Retrieved trajectory 8 in 0.065s
+2025-07-01 06:58:36,698 - INFO - Retrieved 8 trajectories in 0.016s
+2025-07-01 06:58:44,595 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:58:44,714 - INFO - Trajectory created successfully with ID: 9
+2025-07-01 06:58:44,866 - INFO - Retrieved trajectory 9 in 0.055s
+2025-07-01 06:58:45,180 - INFO - Retrieved 9 trajectories in 0.021s
+2025-07-01 06:59:09,233 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:59:09,247 - INFO - Trajectory created successfully with ID: 10
+2025-07-01 06:59:09,266 - INFO - Retrieved trajectory 10 in 0.007s
+2025-07-01 06:59:09,287 - INFO - Retrieved 10 trajectories in 0.003s
+2025-07-01 06:59:12,426 - INFO - Creating trajectory: Wall_Coverage_1
+2025-07-01 06:59:12,568 - INFO - Trajectory created successfully with ID: 11
+2025-07-01 06:59:12,677 - INFO - Retrieved trajectory 11 in 0.058s
+2025-07-01 06:59:12,907 - INFO - Retrieved 11 trajectories in 0.023s
+2025-07-01 07:34:43,050 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
+2025-07-01 07:38:02,910 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
+2025-07-01 07:39:45,740 - ERROR - WebSocket error: received 1001 (going away); then sent 1001 (going away)
+2025-07-01 09:41:37,218 - ERROR - WebSocket error: no close frame received or sent
