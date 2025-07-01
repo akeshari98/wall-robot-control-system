@@ -99,12 +99,9 @@ wall_robot_system/
 
 ## 🖼️ Screenshots
 
-_(You can add screenshots here to show UI and animations)_
-
-Example:
 
 ```
-![Trajectory UI](screenshots/trajectory_example.png)
+![Trajectory UI](screenshots/trajectory_preview.png)
 ```
 
 ---
